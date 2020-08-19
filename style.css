@@ -4,8 +4,9 @@ word-spacing: 20%;
 font-size: 50px;
 padding: 20px;}
 
-section {text-align: left;
-float: right;}
+section {float: right;}
+
+p {text-align: left;}
 
 footer {text-align: center;
     background-color: tan;

@@ -10,7 +10,7 @@ else {document.write('<h2>' + userName + ' Leave now or else' + '</h2>')}
 
 
 var chickenCount = prompt('Please tell us how much chicken you eat');
-if (chickenCount > 0){
+if (chickenCount = none){
     alert('eat more chickens!');
 }else {
     document.write('<p> eat more chicken!</p>')

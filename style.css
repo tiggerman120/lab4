@@ -1,4 +1,7 @@
-header {color: tan;
-padding: 20px;}
+header {background-color: tan;
+padding: 30px;
+align-items: center;}
 
-footer {padding: 20px;}
+footer {padding: 30px;
+align-items: center;
+}

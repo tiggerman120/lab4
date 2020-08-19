@@ -3,7 +3,8 @@ height: fit-content;
 padding: 30px;
 align-items: center;}
 
-p {text-align: left}
+section {text-align: left;
+float: right;}
 
 footer {background-color: tan;
 height: fit-content;

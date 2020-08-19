@@ -4,7 +4,7 @@ word-spacing: 20%;
 font-size: 30px;
 padding: 10px;}
 
-section {float: right;}
+section {align-content: center;}
 
 p {text-align: left;}
 

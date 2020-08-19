@@ -1,13 +1,14 @@
-header {background-color: tan;
-height: fit-content;
-padding-left: 50px;
-text-align: center;}
+header {text-align: center;
+background-color: tan;
+word-spacing: 20%;
+font-size: 50px;
+padding: 20px;}
 
 section {text-align: left;
 float: right;}
 
-footer {background-color: tan;
-height: fit-content;
-padding-left: 50px;
-text-align: center;
-}
+footer {text-align: center;
+    background-color: tan;
+    word-spacing: 20%;
+    font-size: 50px;
+    padding: 20px;}

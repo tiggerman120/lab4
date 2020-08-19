@@ -1,9 +1,13 @@
 header {background-color: tan;
+height: fit-content;
 padding: 30px;
 align-items: center;}
 
 section {text-align: right;}
+p {text-align: left}
 
-footer {padding: 30px;
+footer {background-color: tan;
+height: fit-content;
+padding: 30px;
 align-items: center;
 }

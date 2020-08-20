@@ -22,3 +22,27 @@ document.write('You should buy our chickens and be a birbma!');
 greeting()
 chickenNumber()
 takeMeHome()
+
+function numberGuessingGame() {
+    var correctAnswer = 37;
+    var playGame = prompt('Do you want to play a game?');
+    while(playGame === 'yes'){
+        for (var i = 0; i < 5; i = i + 1){
+            var userGuess = parseInt(prompt("Please Enter a number 1-100"));
+            if(userGuess === correctAnswer){
+                alert('You guessed correct!')
+                break;
+            } else if (userGuess < correctAnswer){
+                alert('You guessed to low')
+            } else if (userGuess > correctAnswer){
+                alert('You guessed to high')
+            }
+            if(i === 4){
+                alert('The correct answer is ' + correctAnswer);
+            }
+        }
+        playGame = prompt('Do you want to play another game?');
+    }
+}
+
+numberGuessingGame()

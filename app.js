@@ -14,15 +14,21 @@ if (chickenCount = 'none')
     {document.write('eat more chickens!')}
     else {document.write('<p> eat more chicken!</p>')};
 }
+
 function takeMeHome() {
 var ownership = prompt('Do you want to be a chicken farmer? yes/no')
 if (ownership = 'yes')
 document.write('You should buy our chickens and be a birbma!');
 }
+
 greeting()
 chickenNumber()
 takeMeHome()
-
+// create number guessing game
+// give the user 5 chances to guess the correct answer
+// if they get the wrong answer tell them high/low
+// if they get the wrong answer tell the answer
+// after 5 incorrect answers give them the answer
 function numberGuessingGame() {
     var correctAnswer = 37;
     var playGame = prompt('Do you want to play a game?');
